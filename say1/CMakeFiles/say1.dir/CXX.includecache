@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/flype/inc/say.hpp
+iostream
+-
+
+/root/flype/say1/say1.cpp
+../inc/say.hpp
+/root/flype/inc/say.hpp
+
