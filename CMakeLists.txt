@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+add_subdirectory(say1) 
+add_subdirectory(say2) 
+add_executable(Main src/main.cpp)
+target_link_libraries(Main say1 say2) 
