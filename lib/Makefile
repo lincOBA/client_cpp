@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/flype && $(CMAKE_COMMAND) -E cmake_progress_start /root/flype/CMakeFiles /root/flype/say1/CMakeFiles/progress.marks
-	cd /root/flype && $(MAKE) -f CMakeFiles/Makefile2 say1/all
+	cd /root/flype && $(CMAKE_COMMAND) -E cmake_progress_start /root/flype/CMakeFiles /root/flype/lib/CMakeFiles/progress.marks
+	cd /root/flype && $(MAKE) -f CMakeFiles/Makefile2 lib/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/flype/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/flype && $(MAKE) -f CMakeFiles/Makefile2 say1/clean
+	cd /root/flype && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,12 +97,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/flype && $(MAKE) -f CMakeFiles/Makefile2 say1/preinstall
+	cd /root/flype && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/flype && $(MAKE) -f CMakeFiles/Makefile2 say1/preinstall
+	cd /root/flype && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -111,46 +111,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-say1/CMakeFiles/say1.dir/rule:
-	cd /root/flype && $(MAKE) -f CMakeFiles/Makefile2 say1/CMakeFiles/say1.dir/rule
-.PHONY : say1/CMakeFiles/say1.dir/rule
+lib/CMakeFiles/Error.dir/rule:
+	cd /root/flype && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/Error.dir/rule
+.PHONY : lib/CMakeFiles/Error.dir/rule
 
 # Convenience name for target.
-say1: say1/CMakeFiles/say1.dir/rule
+Error: lib/CMakeFiles/Error.dir/rule
 
-.PHONY : say1
+.PHONY : Error
 
 # fast build rule for target.
-say1/fast:
-	cd /root/flype && $(MAKE) -f say1/CMakeFiles/say1.dir/build.make say1/CMakeFiles/say1.dir/build
-.PHONY : say1/fast
+Error/fast:
+	cd /root/flype && $(MAKE) -f lib/CMakeFiles/Error.dir/build.make lib/CMakeFiles/Error.dir/build
+.PHONY : Error/fast
 
-say1.o: say1.cpp.o
+error.o: error.cpp.o
 
-.PHONY : say1.o
+.PHONY : error.o
 
 # target to build an object file
-say1.cpp.o:
-	cd /root/flype && $(MAKE) -f say1/CMakeFiles/say1.dir/build.make say1/CMakeFiles/say1.dir/say1.cpp.o
-.PHONY : say1.cpp.o
+error.cpp.o:
+	cd /root/flype && $(MAKE) -f lib/CMakeFiles/Error.dir/build.make lib/CMakeFiles/Error.dir/error.cpp.o
+.PHONY : error.cpp.o
 
-say1.i: say1.cpp.i
+error.i: error.cpp.i
 
-.PHONY : say1.i
+.PHONY : error.i
 
 # target to preprocess a source file
-say1.cpp.i:
-	cd /root/flype && $(MAKE) -f say1/CMakeFiles/say1.dir/build.make say1/CMakeFiles/say1.dir/say1.cpp.i
-.PHONY : say1.cpp.i
+error.cpp.i:
+	cd /root/flype && $(MAKE) -f lib/CMakeFiles/Error.dir/build.make lib/CMakeFiles/Error.dir/error.cpp.i
+.PHONY : error.cpp.i
 
-say1.s: say1.cpp.s
+error.s: error.cpp.s
 
-.PHONY : say1.s
+.PHONY : error.s
 
 # target to generate assembly for a file
-say1.cpp.s:
-	cd /root/flype && $(MAKE) -f say1/CMakeFiles/say1.dir/build.make say1/CMakeFiles/say1.dir/say1.cpp.s
-.PHONY : say1.cpp.s
+error.cpp.s:
+	cd /root/flype && $(MAKE) -f lib/CMakeFiles/Error.dir/build.make lib/CMakeFiles/Error.dir/error.cpp.s
+.PHONY : error.cpp.s
 
 # Help Target
 help:
@@ -160,10 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... say1"
-	@echo "... say1.o"
-	@echo "... say1.i"
-	@echo "... say1.s"
+	@echo "... Error"
+	@echo "... error.o"
+	@echo "... error.i"
+	@echo "... error.s"
 .PHONY : help
 
 

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsay2.a  CMakeFiles/say2.dir/say2.cpp.o
-/usr/bin/ranlib libsay2.a

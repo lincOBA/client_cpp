@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/flype/say2/say2.cpp" "/root/flype/say2/CMakeFiles/say2.dir/say2.cpp.o"
+  "/root/flype/lib/error.cpp" "/root/flype/lib/CMakeFiles/Error.dir/error.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

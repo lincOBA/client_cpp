@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsay1.a  CMakeFiles/say1.dir/say1.cpp.o
-/usr/bin/ranlib libsay1.a

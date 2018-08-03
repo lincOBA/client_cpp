@@ -1,4 +1,4 @@
-# Install script for directory: /root/flype/say2
+# Install script for directory: /root/flype/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
